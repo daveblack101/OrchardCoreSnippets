@@ -12,5 +12,5 @@ Test a condition in display url
               
 Always current footer copyright
 <pre>
-&copy;{{ "now" | local | date: "%Y" }} {{ Site.SiteName }}
+&copy;{{ "now" | date: "%Y" }} {{ Site.SiteName }}
 </pre>
